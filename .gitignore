@@ -1,0 +1,16 @@
+# Build outputs
+build/
+*.gb
+*.gbc
+*.o
+*.sym
+*.map
+
+# Editor files
+*~
+*.swp
+.DS_Store
+
+# Emulator files
+*.sav
+*.srm
