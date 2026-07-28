@@ -9,7 +9,7 @@ A Rachel card game client for the Nintendo Game Boy.
 - **VRAM**: 8KB
 - **Display**: 160x144, 4 shades of gray
 - **Link Port**: Serial communication
-- **Platform ID**: 0x00C2 (194)
+- **Platform ID**: 0x0011 (17)
 
 ## Building
 
@@ -77,7 +77,7 @@ $FF80-$FFFE: High RAM (127 bytes)
 Uses RUBP (Rachel Unified Binary Protocol):
 - 64-byte fixed-size messages
 - "RACH" magic header
-- Platform ID: 0x00C2 (Game Boy)
+- Platform ID: 0x0011 (Game Boy)
 
 Full specification: [rachel-multiverse/protocol](https://github.com/rachel-multiverse/protocol) — also rendered at <https://rachel.stevehill.xyz/protocol>.
 

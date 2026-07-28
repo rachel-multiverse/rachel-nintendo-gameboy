@@ -80,7 +80,7 @@ DEF PAYLOAD_SIZE    EQU 48
 
 ; Platform identification
 DEF PLATFORM_ID_HI  EQU $00
-DEF PLATFORM_ID_LO  EQU $C2         ; 194 = Game Boy
+DEF PLATFORM_ID_LO  EQU $11         ; 17 = Game Boy
 
 ; Game states
 DEF STATE_TITLE     EQU 0
