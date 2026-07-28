@@ -74,10 +74,12 @@ $FF80-$FFFE: High RAM (127 bytes)
 
 ## Protocol
 
-Uses RUBP (Rachel Universal Binary Protocol):
+Uses RUBP (Rachel Unified Binary Protocol):
 - 64-byte fixed-size messages
 - "RACH" magic header
 - Platform ID: 0x00C2 (Game Boy)
+
+Full specification: [rachel-multiverse/protocol](https://github.com/rachel-multiverse/protocol) — also rendered at <https://rachel.stevehill.xyz/protocol>.
 
 ## License
 
